@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-import { getSidebar } from './sidebar'
+import { generateSidebar } from 'vitepress-sidebar';
 
 export default defineConfig({
   title: 'Yahoo Finance 2 Docs',
@@ -7,6 +7,12 @@ export default defineConfig({
   ignoreDeadLinks: true,
   base: '/node-yahoo-finance2/',
   themeConfig: {
-    sidebar: getSidebar()
+    sidebar: generateSidebar({
+      collapsed: true,
+      capitalizeFirst: true,
+      frontmatterTitleFieldName: 'title',
+      includeFolderIndexFile: true,
+      useTitleFromFrontmatter: true,
+    }),
   }
 })
