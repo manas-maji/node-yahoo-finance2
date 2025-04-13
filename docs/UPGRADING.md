@@ -38,7 +38,7 @@ Other notable changes:
 **Development**:
 
 There were significant changes to the development environment, please see the
-[CONTRIBUTING.md](../CONTRIBUTING.md) file for more details.
+[CONTRIBUTING.md](https://github.com/gadicc/node-yahoo-finance2/blob/devel/CONTRIBUTING.md) file for more details.
 
 ````
 

@@ -560,4 +560,4 @@ region does not seem to do anything when changed, always returns US
 
 ### Module Options
 
-See [Common Options](../README.md#common-options).
+See [Common Options](../index.md#common-options).

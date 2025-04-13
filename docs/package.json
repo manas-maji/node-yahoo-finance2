@@ -1,0 +1,20 @@
+{
+  "name": "yahoo-finance2-docs",
+  "version": "1.0.0",
+  "description": "Documentation for Yahoo Finance API",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "keywords": [],
+  "author": "Manas Maji",
+  "license": "ISC",
+  "packageManager": "pnpm@10.7.0",
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "vitepress": "^1.6.3"
+  }
+}

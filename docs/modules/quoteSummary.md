@@ -95,11 +95,11 @@ await yahooFinance.quoteSummary(symbol, queryOptions, moduleOptions);
 ### Symbol
 
 Symbol name as used by Yahoo (often the stock ticker).  You can find it
-using [autoc](./auto.md) or [search](./search.md).
+using [autoc](./autoc.md) or [search](./search.md).
 
 ### Module Options
 
-See [Common Options](../README.md#common-options).
+See [Common Options](../index.md#common-options).
 
 ### Query Options
 
@@ -110,40 +110,45 @@ See [Common Options](../README.md#common-options).
 
 The full list of submodules and their output:
 
-* [assetProfile](#assetProfile)
-* [balanceSheetHistory](#balanceSheetHistory)
-* [balanceSheetHistoryQuarterly](#balanceSheetHistoryQuarterly)
-* [calendarEvents](#calendarEvents)
-* [cashflowStatementHistory](#cashflowStatementHistory)
-* [cashflowStatementHistoryQuarterly](#cashflowStatementHistoryQuarterly)
-* [defaultKeyStatistics](#defaultKeyStatistics)
-* [earnings](#earnings)
-* [earningsHistory](#earningsHistory)
-* [earningsTrend](#earningsTrend)
-* [financialData](#financialData)
-* [fundOwnership](#fundOwnership)
-* [fundPerformance](#fundPerformance)
-* [fundProfile](#fundProfile)
-* [incomeStatementHistory](#incomeStatementHistory)
-* [incomeStatementHistoryQuarterly](#incomeStatementHistoryQuarterly)
-* [indexTrend](#indexTrend)
-* [industryTrend](#industryTrend)
-* [insiderHolders](#insiderHolders)
-* [insiderTransactions](#insiderTransactions)
-* [institutionOwnership](#institutionOwnership)
-* [majorDirectHolders](#majorDirectHolders)
-* [majorHoldersBreakdown](#majorHoldersBreakdown)
-* [netSharePurchaseActivity](#netSharePurchaseActivity)
-* [price](#price)
-* [quoteType](#quoteType)
-* [recommendationTrend](#recommendationTrend)
-* [secFilings](#secFilings)
-* [sectorTrend](#sectorTrend)
-* [summaryDetail](#summaryDetail)
-* [summaryProfile](#summaryProfile)
-* [symbol](#symbol)
-* [topHoldings](#topHoldings)
-* [upgradeDowngradeHistory](#upgradeDowngradeHistory)
+- [quoteSummary](#quotesummary)
+  - [Usage:](#usage)
+  - [API](#api)
+    - [Symbol](#symbol)
+    - [Module Options](#module-options)
+    - [Query Options](#query-options)
+    - [assetProfile](#assetprofile)
+    - [balanceSheetHistory](#balancesheethistory)
+    - [balanceSheetHistoryQuarterly](#balancesheethistoryquarterly)
+    - [calendarEvents](#calendarevents)
+    - [cashflowStatementHistory](#cashflowstatementhistory)
+    - [cashflowStatementHistoryQuarterly](#cashflowstatementhistoryquarterly)
+    - [defaultKeyStatistics](#defaultkeystatistics)
+    - [earnings](#earnings)
+    - [earningsHistory](#earningshistory)
+    - [earningsTrend](#earningstrend)
+    - [financialData](#financialdata)
+    - [fundOwnership](#fundownership)
+    - [fundPerformance](#fundperformance)
+    - [fundProfile](#fundprofile)
+    - [incomeStatementHistory](#incomestatementhistory)
+    - [incomeStatementHistoryQuarterly](#incomestatementhistoryquarterly)
+    - [indexTrend](#indextrend)
+    - [industryTrend](#industrytrend)
+    - [insiderHolders](#insiderholders)
+    - [insiderTransactions](#insidertransactions)
+    - [institutionOwnership](#institutionownership)
+    - [majorDirectHolders](#majordirectholders)
+    - [majorHoldersBreakdown](#majorholdersbreakdown)
+    - [netSharePurchaseActivity](#netsharepurchaseactivity)
+    - [price](#price)
+    - [quoteType](#quotetype)
+    - [recommendationTrend](#recommendationtrend)
+    - [secFilings](#secfilings)
+    - [sectorTrend](#sectortrend)
+    - [summaryDetail](#summarydetail)
+    - [summaryProfile](#summaryprofile)
+    - [topHoldings](#topholdings)
+    - [upgradeDowngradeHistory](#upgradedowngradehistory)
 
 <a name="assetProfile"></a>
 ### assetProfile

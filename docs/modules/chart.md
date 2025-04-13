@@ -83,7 +83,7 @@ const result = await yahooFinance.chart(query, queryOptions);
 ```
 
 Make sure to also look out for [chart() errors](#errors)
-and [general errors](../README.md#error-handling).
+and [general errors](../index.md#error-handling).
 
 The above includes a number of transforms from the original object format
 received from Yahoo, which makes the data a bit easier to work with.  It uses
@@ -178,7 +178,7 @@ Interval period can be one of 1m, 2m, 5m, 15m, 30m, 60m, 90m, 1h, **1d**, 5d, **
 
 ### Module Options
 
-See [Common Options](../README.md#common-options).
+See [Common Options](../index.md#common-options).
 
 <a name="errors"></a>
 ## Errors

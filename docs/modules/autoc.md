@@ -67,4 +67,4 @@ Symbol, company name, SEDOL, etc.
 
 ### Module Options
 
-See [Common Options](../README.md#common-options).
+See [Common Options](../index.md#common-options).

@@ -182,7 +182,7 @@ For a list of all fields, see the `Quote` interface in
 
 ### Module Options
 
-See [Common Options](../README.md#common-options).
+See [Common Options](../index.md#common-options).
 
 <a name="quirks"></a>
 ## Quirks

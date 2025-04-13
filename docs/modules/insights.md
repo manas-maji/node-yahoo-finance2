@@ -142,4 +142,4 @@ await yahooFinance.insights(query, queryOptions, moduleOptions);
 
 ### Module Options
 
-See [Common Options](../README.md#common-options).
+See [Common Options](../index.md#common-options).

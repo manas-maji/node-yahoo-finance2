@@ -55,4 +55,4 @@ There are no query options for this module that we know of.
 
 ### Module Options
 
-See [Common Options](../README.md#common-options).
+See [Common Options](../index.md#common-options).
