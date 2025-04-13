@@ -47,4 +47,4 @@ The country name has to be an ISO2 code, either uppercase or lowercase. Most cou
 
 ### Module Options
 
-See [Common Options](../README.md#common-options).
+See [Common Options](../index.md#common-options).

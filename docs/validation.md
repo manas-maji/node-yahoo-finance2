@@ -4,12 +4,13 @@
 them.  This document explains why this is important, but also how you can
 side-step this if you understand the risks.
 
-1. [Why Validate](#why-validate)
-1. [Using Unvalidated Data](#using-unvalidated-data)
-1. [Skip Validation Completely](#using-unvalidated-data)
-1. [Don't Log Validation Failures](#dont-log-validation-fails)
-1. [A Note on Additional Properties](#note-additional-props)
-1. [Help Fix Validation Errors](#help-fix)
+- [Validation](#validation)
+  - [Why Validate](#why-validate)
+  - [Using Unvalidated Data](#using-unvalidated-data)
+  - [Skip Validation Completely](#skip-validation-completely)
+  - [Don't Log Validation Failures](#dont-log-validation-failures)
+  - [A Note on "Additional Properties"](#a-note-on-additional-properties)
+  - [Help Fix Validation Errors](#help-fix-validation-errors)
 
 <a name="why-validate"></a>
 ## Why Validate
@@ -160,17 +161,17 @@ all types.
 ## Help Fix Validation Errors
 
 1. Fork the repo, clone locally and setup dev environment.
-   See [CONTRIBUTING](../CONTRIBUTING.md).
+   See [CONTRIBUTING](https://github.com/gadicc/node-yahoo-finance2/blob/devel/CONTRIBUTING.md).
 
-1. Add the problematic symbol, depending on whether it affects just one or
+2. Add the problematic symbol, depending on whether it affects just one or
    multiple modules, either do the appropriate `.spec.ts` file for that
    module, or to
    [tests/testSymbols.ts](https://github.com/gadicc/node-yahoo-finance2/blob/devel/tests/testSymbols.ts).
 
-1. Run `yarn test` or `yarn test <moduleName>`, as relevant.  The API call
+3. Run `yarn test` or `yarn test <moduleName>`, as relevant.  The API call
    will be made and cached locally.  The test will fail as expected.
 
-1. **Inspect the error and update the typescript interface in the relevant
+4. **Inspect the error and update the typescript interface in the relevant
    module(s).**
 
 For example, say we had this error:

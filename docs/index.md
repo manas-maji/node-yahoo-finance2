@@ -2,14 +2,15 @@
 
 ## Table of Contents
 
-1. [Common Options](#common-options)
-1. [Modules](#modules)
-1. [Other Methods](#other)
-1. [Util Methods](#utils)
-1. [Error Handling](#error-handling)
-1. [Validation](./validation.md)
-1. [Concurrency](./concurrency.md)
-1. [Upgrading from v1](./UPGRADING.md)
+- [yahoo-finance docs](#yahoo-finance-docs)
+  - [Table of Contents](#table-of-contents)
+  - [Common Options](#common-options)
+  - [Modules](#modules)
+  - [Other Methods](#other-methods)
+  - [Error Handling](#error-handling)
+  - [Validation](#validation)
+  - [Concurrency](#concurrency)
+  - [Upgrading from v1](#upgrading-from-v1)
 
 <a name="common-options"></a>
 ## Common Options
@@ -150,4 +151,4 @@ See [Concurrency Docs](./concurrency.md).
 
 ## Upgrading from v1
 
-See [Upgrading from v1](./UPGRADING.md).
+See [Upgrading from v1](./upgrading.md).
