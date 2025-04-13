@@ -1,1 +1,0 @@
-import{_ as i,c as a,o as e,ae as n}from"./chunks/framework.Dh1jimFm.js";const E=JSON.parse('{"title":"yahoo-finance docs","description":"","frontmatter":{},"headers":[],"relativePath":"index.md","filePath":"index.md"}'),t={name:"index.md"};function l(h,s,r,o,p,k){return e(),a("div",null,s[0]||(s[0]=[n("",34)]))}const c=i(t,[["render",l]]);export{E as __pageData,c as default};
